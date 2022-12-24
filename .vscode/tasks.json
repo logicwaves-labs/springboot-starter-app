@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Installing extensions and dependencies...",
+      "type": "shell",
+      "command": "code-server --install-extension Pivotal.vscode-boot-dev-pack  --install-extension esbenp.prettier-vscode",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      },
+      "runOptions": { "runOn": "folderOpen" }
+    }
+  ]
+}
