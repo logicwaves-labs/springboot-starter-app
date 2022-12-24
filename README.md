@@ -6,3 +6,6 @@ Install dependencies of Maven with :
 
 Run this application with :
 ```./mvnw spring-boot:run```
+
+Recommended : Run this command to clean and run Spring Boot Application:
+``` ./mvnw clean spring-boot:run```
